@@ -1,0 +1,320 @@
+/* ================================ 
+			BODY
+================================ */
+
+*
+{
+	box-sizing:border-box;
+}
+ul
+{
+    list-style-type: none;
+}
+
+
+/* ================================ 
+			HEADER
+================================ */
+
+header
+{
+    border-top: 5px solid #000;
+}
+
+	/*////// LOGO //////*/
+
+	#logo
+	{
+		text-align: center;
+	}
+
+	/*////// MENU //////*/
+
+	nav ul
+	{
+    	width: 100%;
+    	margin:0;
+    	padding:0;
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+		-webkit-justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+	}
+
+	
+	nav li
+	{
+    	position: relative;
+    	display: inline-block;
+	    margin: 0 0 5px;
+	    width: 20%;
+	    text-align: center;
+	}
+
+	nav li:hover
+	{
+	    border-top: 5px solid #F00;
+	    top:-5px;
+	    margin:0;
+	    background-color: #A3FFF8;
+	}
+
+	nav a
+	{
+	    display:block;
+	    font-size: 1.3em;
+	    color: #181818;
+	    width: 100%;
+	    height: 86px;
+	    text-decoration: none;
+	}
+
+	nav a:hover
+	{
+	    color: #F00;
+	}
+
+/* ================================ 
+			BANNIERE
+================================ */
+
+#banniere
+{
+	background-color: #A3FFF8;
+	box-shadow: 0 0 10px 10px #A3FFF8;
+	position: relative;
+	top: -5px;
+}
+
+/* ================================ 
+			SLOGAN
+================================ */
+
+.slogan
+{
+	text-align:center;
+	border-bottom: 1px solid #D4D4D4;
+}
+
+.slogan h2
+{
+	margin-bottom: 0;
+}
+
+.slogan p
+{
+	margin-top:0;
+}
+
+/* ================================ 
+			PORTFOLIO
+================================ */
+
+	#gallery ul
+	{
+    	width: 100%;
+    	margin:0;
+    	padding:0;
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+		-webkit-justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+	}
+
+	
+	#gallery li
+	{
+    	display: inline-block;
+	    width: 25%;
+	}
+
+	#gallery li:hover
+	{
+	    background-color: #A3FFF8;
+	}
+
+	#gallery a
+	{
+	    display:block;
+	    font-size: 1.3em;
+	    color: #181818;
+	    width: 100%;
+	    text-decoration: none;
+	}
+
+	#gallery a:hover
+	{
+	    color: tomato;
+	}
+
+	@media screen and (max-width: 1200px)
+	{
+
+		#gallery li
+		{
+		    width: 50%;
+		}
+
+		#gallery li:nth-child (1n+5)
+		{
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 768px)
+	{
+
+		#gallery li
+		{
+	    	width: 100%;
+		}
+
+		#gallery li:nth-child (1n+3)
+		{
+			display: none;
+			visibility: hidden;
+		}
+	}
+
+/* ================================ 
+			FREE QUOTE
+================================ */
+
+.border
+{
+	border: 1px solid black;
+}
+
+#free
+{
+	margin-top: 10%;
+}
+
+
+/* ================================ 
+			COLONNES
+================================ */
+
+
+	/*////// OUR SERVICES //////*/
+
+	dt
+	{
+		position: relative;
+	}
+
+	dt::before
+	{
+		list-style-image: ('check.svg');
+	}
+
+	/*////// testimonials //////*/
+
+	.portrait
+	{
+		height: 60px;
+		width: 60px;
+		border: 1px solid grey;
+		border-radius: 50%;
+		float: left;
+		padding: 1px;
+		margin-right: 1.5em;
+	}
+
+	/*////// FORMULAIRE //////*/
+
+	.input, textarea
+	{
+		width: 100%;
+	}
+
+	.flex
+	{
+		display: flex;
+	}
+
+	.form
+	{
+		margin: 3px auto;
+	}
+
+	.input
+	{
+		height: 32px;
+	}
+
+	textarea
+	{
+		height: 64px;
+	}
+
+	.submit
+	{
+		width: 35%;
+		background-color: green;
+		color: white;
+		border: 1px solid black;
+		border-radius: 10px;
+	}
+
+	.submit:hover
+	{
+		background-color: red;
+	}
+
+
+
+/* ================================ 
+			FOOTER
+================================ */
+
+
+footer
+{
+	background-color: #382D2B;
+	color: white;
+	border-top: 1rem solid grey;
+}
+
+
+	/*////// Flux RSS //////*/
+
+	/*////// Copyright //////*/
+
+	em
+	{
+		font-size: 0.625em;
+	}
+
+	#copy
+	{
+		padding-top: 1em;
+		padding-bottom: 1em;
+		background-color: #34382B;
+	}
+
+	#pied
+	{
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+		-webkit-flex-wrap: wrap;
+	}
+
+	#pied li
+	{
+		align-self: center;
+		margin: auto 1em;
+	}
+
+	#pied li:first-child
+	{
+		margin-right: auto;
+	}
+
+	#pied a
+	{
+		text-decoration: none;
+		color: white;
+	}
+
+	

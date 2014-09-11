@@ -1,0 +1,26 @@
+
+/* Global
+================================ */
+
+img {
+	width: 100%;
+}
+
+/* Media Queries
+================================ */
+
+@media (min-width: 768px) {
+
+	/* Columns are 65px wide, with 20px gutters
+	=========================================== */
+
+
+	/* Clearfix
+	================================ */
+
+	.group:after {
+	  content: " ";
+	  display: table;
+	  clear: both;
+	}
+}

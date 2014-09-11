@@ -1,0 +1,139 @@
+html, body {
+ 	margin:0;
+	padding:0;
+ 	background-color: black;
+	background-image:url(images/wallpaper.jpg);
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.page{
+ 	top: 50px;
+ 	width: 70%;
+ 	margin: auto;
+}
+h1, h2, h3, h4{
+ 	color: red;
+ 	line-height: 1%;
+}
+a{
+ 	font-size: 3.5em;
+ }
+.clear{
+	clear: both;
+}
+.acedie{
+	background:#808080;
+	background-image:url(images/acedie.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	float: left;
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+.gourmandise{
+	background:#FF7F00;
+	background-image:url(images/gour.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	float: left;	
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+.orgueil{
+	background:#7F00FF;
+	background-image:url(images/org.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	float: left;
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+.envie{
+	background:#009900;
+	background-image:url(images/jalou.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	float: left;
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+.avarice{
+	background:#FFFF00;
+	background-image:url(images/ava.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	float: left;
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+.colere{
+	background:#FF0000;
+	background-image:url(images/piaf.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	float: left;
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+.luxure{
+	background-color: #FD3F92;
+	background-image:url(images/lux.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 2%;
+	border: 8px black double;
+	border-radius: 75px;
+	box-shadow: 6px 6px 0px black;
+	width: 256px;
+	height: 256px;
+	text-align: center;
+}
+/* Ajout de scroo */
+.rotate{
+	vertical-align: middle;
+	transform-origin: ;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	text-align:center;
+}

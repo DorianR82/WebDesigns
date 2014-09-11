@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'chowfun';
+    src: url('polices/chowfun.eot');
+    src: url('polices/chowfun.eot?#iefix') format('embedded-opentype');
+         url('polices/chowfun.woff') format('woff')
+         url('polices/chowfun.ttf') format('truetpe')
+         url('polices/chowfun.svg#chowfun') format('svg')
+
+}
+
+body
+{
+    background-image: url("images/Fudziyama_1680x1050.jpg");
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #000000;
+}
+
+#bloc_page
+{
+    border: 1px;
+    width: 900px;
+    margin: auto;
+}
+
+#logo, #titre
+{
+	display: inline-block;
+    margin-bottom: 0px;
+}
+
+nav
+{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 1px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #ff0000;
+    border-bottom: 5px solid #ff0000;
+}
